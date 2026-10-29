@@ -31,7 +31,6 @@ While traditional accounting tools rely on cloud APIs that leak proprietary supp
 ## 🧠 Elevating Edge AI: Why On-Device Intelligence Matters
 Financial receipts and supplier invoices contain a restaurant's most sensitive trade secrets: supplier costs, raw ingredient wholesale rates, wholesale discounts, and net margins. BillBao is designed from the ground up on the **Edge AI Privacy-First Paradigm**:
 
-```mermaid
 flowchart TD
     A["📸 Physical Receipt / Market Slip"] --> B["⚡ Camera / Photo Picker"]
     B --> C["🤖 On-Device Google ML Kit OCR (libmlkit_google_ocr_pipeline.so)"]
@@ -50,7 +49,7 @@ flowchart TD
     F --> G["📱 Jetpack Compose UI (Obsidian Dark Theme)"]
     F --> H["📄 On-Device A4 PDF Engine (android.graphics.pdf)"]
     F --> I["📊 Direct RFC 4180 CSV / Excel Exporter"]
-```
+
 
 ### 1. Zero Cloud Latency & Total Privacy
 * **Offline Inference**: ML Kit's edge OCR pipeline (`libmlkit_google_ocr_pipeline.so`) runs directly on the device's CPU/GPU/NPU.
