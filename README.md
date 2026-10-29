@@ -31,7 +31,7 @@ While traditional accounting tools rely on cloud APIs that leak proprietary supp
 ## 🧠 Elevating Edge AI: Why On-Device Intelligence Matters
 Financial receipts and supplier invoices contain a restaurant's most sensitive trade secrets: supplier costs, raw ingredient wholesale rates, wholesale discounts, and net margins. BillBao is designed from the ground up on the **Edge AI Privacy-First Paradigm**:
 
-flowchart TD
+    flowchart TD
     A["📸 Physical Receipt / Market Slip"] --> B["⚡ Camera / Photo Picker"]
     B --> C["🤖 On-Device Google ML Kit OCR (libmlkit_google_ocr_pipeline.so)"]
     C --> D["🧠 Edge NLP & Financial Heuristic Engine"]
